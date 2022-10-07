@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.add-user{
+    text-align: left;
+}
+
+form{
+    text-align: center;
+    width: 800px;
+    margin: auto;
+    background-color: aqua;
+}
+
+.status, .date{
+    display: inline-block;
+}
+
+.width_input{
+    width: 215px;
+    height: 25px;
+    /* padding: 10px; */
+    margin: 15px auto;
+}
+textarea{
+    height: 200px;
+    background-color: red;
+    padding: 0;
+}
+.favlang-p{
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.width_input_half{
+    width: calc(215px / 2 - 14px);
+}
+
+.signup-terms{
+    display: flex;
+    justify-content: center;
+}
+
+button[type="submit"]{
+    width: 200px;
+    height: 40px;
+}

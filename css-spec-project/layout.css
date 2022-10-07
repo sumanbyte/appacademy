@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app-academy-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: gold;
+}
+
+.app-academy {
+    border-radius: 20px;
+    background-color: brown;
+    color: white;
+    padding: 15px 30px;
+}
+
+
+.sign-in {
+    border-radius: 20px;
+    background-color: rgb(74, 74, 161);
+    color: white;
+    padding: 15px 30px;
+}
+
+.navbar {
+    padding: 20px;
+    background-color: black;
+}
+
+.navbar nav {
+    width: 90vw;
+    margin: auto;
+}
+
+.navbar nav .nav-ul {
+    display: flex;
+    justify-content: space-around;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar nav ul li {
+    list-style-type: none;
+    padding: 5px 10px;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.author-info {
+    width: 80%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+    padding: 20px;
+}
+
+.author-info .author-socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 22px;
+}
+
+.author-info .author-socials .icons{
+    display: flex;
+    align-items: center;
+
+}
+
+.icons img{
+    margin: auto 5px;
+}
+
+.author-info .author-socials img {
+    width: 60px;
+}
+
+.author-info .author-socials button {
+    border-radius: 12px;
+    background-color: white;
+    color: blue;
+    padding: 15px 30px;
+    transition: 1s;
+
+}
+
+.author-info .author-socials button:hover {
+    background-color: blue;
+    color: white;
+}
+
+.author {
+    border: 2px solid black;
+    padding: 10px;
+
+}
+
+.banner-img{
+}
+
+.banner-img img{
+    width: 80vw;
+    padding: 20px;
+    max-width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    margin: auto;
+    display: block;
+
+}
+
+.main-content{
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    width: 80vw;
+    margin: auto;
+    padding: 20px;
+}
+
+.main-content p{
+    word-spacing: 2px;
+    padding: 10px;
+    font-size: 19px;
+}
+
+.main-content h4{
+    word-spacing: 2px;
+    padding: 10px;
+    font-size: 22px;
+}
+
+.more-info{
+    font-family: 'Times New Roman', Times, serif;
+    width: 80vw;
+    margin: auto;
+    padding: 10px 20px;
+    border: 1px solid black;
+}
+
+.it-re{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.footer{
+    font-family: 'Times New Roman', Times, serif;
+    width: 70vw;
+    margin: auto;
+    padding: 20px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer ul li {
+    list-style-type: none;
+    padding: 5px 10px;
+    margin: auto 16px;
+}
+
+footer ul li a {
+    text-decoration: none;
+
+}

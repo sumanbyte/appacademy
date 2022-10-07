@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Forms</title>
+</head>
+<body>
+    <form action="/submit.php" method="post">
+        <fieldset>
+
+            <legend>Add user</legend>
+
+            <div>
+                <label for="firstName">First Name</label>
+                <input type="text" name="firstName" id="firstName">
+            </div>
+            <div>
+                <label for="lastName">Last Name</label>
+                <input type="text" name="lastName" id="lastName">
+            </div>
+            <div>
+                <label for="email-address">First Name</label>
+                <input type="email" name="email" id="email-address">
+            </div>
+            <div>
+                <label for="user-role">Role</label>
+                <select name="role" id="user-role">
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="guest">Guest</option>
+                </select>
+            </div>
+
+            <div>
+                <p>Choose your Favourite Programming Language</p>
+                <div>
+                    <input type="radio" id="html" name="language" checked>
+                    <label for="html">HTML</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="language" id="css">
+                    <label for="css">CSS</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="language" id="javascript">
+                    <label for="javascript">Javascript</label>
+                </div>
+
+            </div>
+
+            <div>
+                <label for="comments">Comments</label>
+                <br>
+                <textarea name="comments" id="" cols="30" rows="10"></textarea>
+                <br>
+                <label for="date">Choose a Date</label>
+                <input type="date" value="c">
+            </div>
+
+            <div>
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Signup for the newsletter</label>
+                <br>
+                <input type="checkbox" id="terms-and-conditions" name="terms-and-conditions">
+                <label for="terms-and-conditions">Agree to our Terms and Conditions</label>
+                <br>
+
+                <button type="submit">Submit</button>
+            </div>
+
+        </fieldset>
+    </form>
+</body>
+</html>

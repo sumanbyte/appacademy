@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Debugging CSS Practice</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+  <!-- <form action="/submitform.php" method="post">
+
+    <fieldset>
+      <legend>Add User</legend>
+
+      <div>
+        <label for="firstName">First Name</label>
+        <input type="text" name="firstName" id="firstName">
+      </div>
+
+      <div>
+        <label for="lastName">Last Name</label>
+        <input type="text" name="lastName" id="lastName">
+      </div>
+
+      <div>
+        <label for="email-address">Email</label>
+        <input type="email" name="email-address" id="email">
+      </div>
+
+      <div>
+        <label for="role">Role</label>
+        <select name="user-role" id="role">
+          <option value="admin">Admin</option>
+          <option value="user">User</option>
+          <option value="guest">Guest</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="expiration">Expiration</label>
+        <input type="date" name="expiration" id="expiration">
+      </div>
+
+      <div>
+        <label for="bio">Bio</label>
+        <textarea name="bio" id="bio"></textarea>
+      </div>
+
+      <div>
+        <button type="submit">Add this person</button>
+      </div>
+
+    </fieldset>
+  </form> -->
+
+
+
+  <!-- Simple modal dialog containing a form -->
+  <dialog id="favDialog">
+    <form method="dialog">
+      <p><label>Favorite animal:
+          <select>
+            <option value="default">Choose...</option>
+            <option>Brine shrimp</option>
+            <option>Red panda</option>
+            <option>Spider monkey</option>
+          </select>
+        </label></p>
+      <div>
+        <button value="cancel">Cancel</button>
+        <button id="confirmBtn" value="default">Confirm</button>
+      </div>
+    </form>
+  </dialog>
+  <p>
+    <button id="updateDetails">Update details</button>
+  </p>
+  <output></output>
+
+</body>
+<script src="index.js"></script>
+</html>

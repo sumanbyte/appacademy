@@ -1,0 +1,37 @@
+h1 {
+    font-size: 30px;
+    font-family: sans-serif;
+    padding: 30px;
+    margin:100px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: chocolate;
+    background-color: black;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: fantasy;
+    padding: 20px;
+    margin: 75px;
+    font-weight: bolder;
+    color: pink;
+    background-color: yellowgreen;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    margin: 50px;
+    color: white;
+    background-color: black;
+}
+
+.logo {
+    background-size: cover;
+    background-image: url('https://appacademy.github.io/styleguide/assets/logo/logo-emblem-black-1000.png');
+    background-color: gray;
+    height: 500px;
+    width: 500px;
+}

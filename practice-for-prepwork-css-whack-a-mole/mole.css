@@ -1,0 +1,68 @@
+/* Your code here */
+body {
+  zoom: 0.75;
+}
+
+.pf{
+  display: grid;
+  grid-template-rows: repeat(1fr, 2);
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.wgs{
+ height: 240px;
+  width: 320px;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.wgs__mole-head{
+  height: 178px;
+  width: 188px;
+  position: absolute;
+  right: 78px;
+  transition: margin-top 0.25s;
+}
+
+.wgs__dirt-pile{
+  height: 110px;
+  width: 320px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.wgs__mole-head--hidden{
+  margin-top: 245px !important;
+  position: absolute !important;
+}
+
+/* UNCOMMENT THE CODE BELOW WHEN DIRECTED */
+.sb {
+  background-color: cornflowerblue;
+  border-bottom: 1px solid #645DED;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  color: white;
+  display: flex;
+  font-size: 30px;
+  margin-bottom: 50px;
+  padding: 10px 20px;
+}
+
+.sb__mole-counter {
+  flex: 1 0 0;
+  text-align: right;
+}
+
+.sb__score-holder {
+  flex: 1 0 0;
+}
+
+.sb__game-over--hidden {
+  display: none;
+}
+
+.wgs__mole-head--whacked{
+  background-image: url('./dead.png');
+  z-index: 1;
+}
