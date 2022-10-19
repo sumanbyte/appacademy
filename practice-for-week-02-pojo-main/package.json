@@ -1,0 +1,11 @@
+{
+  "directories": {
+    "test": "test"
+  }, 
+   "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "mocha": "^10.0.0"
+  }
+}
