@@ -44,6 +44,11 @@ function findMaxBT (rootNode) {
 
 function getHeight (rootNode) {
   // Your code here
+  if(rootNode == null) {
+    return -1;
+  }
+
+  return Math.max(getHeight(rootNode.left), getHeight(rootNode.right)) + 1;
 }
 
 function balancedTree (rootNode) {
