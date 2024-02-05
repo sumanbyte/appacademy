@@ -74,6 +74,12 @@ function balancedTree(rootNode) {
 
 function countNodes(rootNode) {
   // Your code here
+  if (rootNode == null) return 0;
+
+  let leftCount = countNodes(rootNode.left);
+  let rightCount = countNodes(rootNode.right);
+  
+  return leftCount + rightCount + 1;
 }
 
 function getParentNode(rootNode, target) {
@@ -122,7 +128,7 @@ bstRoot.right = new TreeNode(6);
 bstRoot.right.left = new TreeNode(5);
 bstRoot.right.right = new TreeNode(7);
 
-findMinBST(bstRoot);
+countNodes(bstRoot);
 
 module.exports = {
   findMinBST,
