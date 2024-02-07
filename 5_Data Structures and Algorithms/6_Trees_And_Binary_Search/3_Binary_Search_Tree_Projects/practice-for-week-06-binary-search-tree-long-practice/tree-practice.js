@@ -78,12 +78,40 @@ function countNodes(rootNode) {
 
   let leftCount = countNodes(rootNode.left);
   let rightCount = countNodes(rootNode.right);
-  
+
   return leftCount + rightCount + 1;
 }
 
 function getParentNode(rootNode, target) {
   // Your code here
+  if (rootNode === null) {
+    return undefined;
+  }
+
+  if (rootNode.val === target) {
+    return null;
+  }
+
+  if (rootNode.left !== null && rootNode.left.val === target) {
+    return rootNode;
+  }
+
+  if (rootNode.right !== null && rootNode.right.val === target) {
+    return rootNode;
+  }
+
+  const leftParent = getParentNode(rootNode.left, target);
+  
+  if (leftParent !== undefined) {
+    return leftParent;
+  }
+
+  const rightParent = getParentNode(rootNode.right, target);
+  if (rightParent !== undefined) {
+    return rightParent;
+  }
+
+  return undefined
 }
 
 function inOrderPredecessor(rootNode, target) {
