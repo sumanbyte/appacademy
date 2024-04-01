@@ -1,3 +1,2 @@
 # appacademy
-This is the repository where i will be uploading some cool stuffs i did while learning from appacademy software engineering bootcamp.
-AppAcademy is an amazing platform to learn to code. I had spent my fewer months into immersive bootcamp and today i am sharing some code that i've written locally by downloading the starter file repository provided by appacademy. From now on i will add here my progress. I intend to complete this program and i hope this repository might be useful and a kind of motivation for those who have just started learning to code. i am a beginner coder and will continiously work on my skills. Thanks for your valuable time whoever reading this. Keep Learning. Happy Programming. 
+App academy software engineering bootcamp code files.
