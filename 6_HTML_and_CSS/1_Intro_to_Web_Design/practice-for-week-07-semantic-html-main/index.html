@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My HTML Cheat Sheet</title>
+    </head>
+    <body>
+        <h1>My HTML Cheat Sheet</h1>
+
+        <h2>Headings</h2>
+        <p>
+            Headings from `h1` to `h6` identify blocks and sections. Every page must have one `h1`.
+        </p>
+
+        <h2>Paragraphs</h2>
+        <p>
+            Paragraphs of text go in `p` tags.
+        </p>
+
+        <h2>Lists</h2>
+        <h3>Unordered Lists</h3>
+        <p>
+            Unordered lists are marked with bullet points and go in `ul` tags. Each list item goes in an `li` tag.
+        </p>
+        <h4>Types of lists:</h4>
+        <ul>
+            <li>Unordered lists (`ul`)</li>
+            <li>Ordered lists (`ol`)</li>
+        </ul>
+
+        <h3>Ordered Lists</h3>
+        <p>
+            Ordered lists are numbered and go in `ol` tags. Each list item goes in an `li` tag.
+        </p>
+        <h4>Polya's Problem Solving Framework</h4>
+        <ol>
+            <li>Understand the problem</li>
+            <li>Come up with a plan</li>
+            <li>Carry out the plan</li>
+            <li>Go back and improve your solution</li>
+        </ol>
+
+        <section>
+            <h2>Anchors (i.e. links)</h2>
+            <p>
+                Anchor tags create links to other pages. The URL goes in the `href` attribute.
+            <a href="https://duckduckgo.com">
+                Go to DuckDuckGo to search for more information.
+            </a>
+            </p>
+            <p>
+                Setting `target="_blank"` will open the link in a new window. See 
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" target="_blank" rel="noopener">
+                MDN
+            </a>
+            for more details.
+            </p>
+        </section>
+
+        <section>
+            <h2>Images</h2>
+            <p>
+                Images go in `img` tags. The `src` attribute contains the URL of the image. The `alt` attribute contains a description of the image.
+            </p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Insect_anatomy_diagram.svg/1200px-Insect_anatomy_diagram.svg.png" alt="Anatomy of an insect">
+        </section>
+
+        <section>
+            <h2>Tables</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Insect</th>
+                        <th scope="col">Family</th>
+                        <th scope="col">Fact</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Ladybug</th>
+                        <td>Coccinellidae</td>
+                        <td>Can eat more than 5,000 insects!</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Fruit flies</th>
+                        <td>Drosophilidae</td>
+                        <td>First living creatures in outer space!</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Caterpillars</th>
+                        <td>Heterobathmiidae</td>
+                        <td>Have 12 eyes!</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td></td>
+                        <td>I had no ideas!</td>
+                        <td>Those are neat!</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <p>
+                Tables are used to display data in rows and columns. They go in `table` tags. Each row goes in a `tr` tag. Each cell goes in a `td` tag.
+            </p>
+        </section>
+
+        <section>
+            <h2>Artcle</h2>
+            <article>
+                <h3>What is an article?</h3>
+                <p>
+                    An article is a self-contained piece of content that can be distributed and re-used independently. Articles can be blog posts, news stories, technical documentation, and more.
+                </p>
+            </article>
+        </section>
+
+        <section>
+            <h2>footer</h2>
+            <footer>
+                <p>
+                    The footer tag goes at the end of the page and contains information about the page. It can include contact information, copyright information, and more.
+                </p>
+            </footer>
+        </section>
+
+        <section>
+            <h2>header</h2>
+            <header>
+                <p>
+                    The header tag goes at the top of the page and contains information about the page. It can include the page title, navigation links, and more.
+                </p>
+            </header>
+        </section>
+
+        <section>
+            <h2>nav</h2>
+            <nav>
+                <p>
+                    The nav tag goes at the top of the page and contains navigation links. It can include links to other pages on the site, links to other sites, and more.
+                </p>
+            </nav>
+        </section>
+
+        <section>
+            <h2>Forms</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+
+  </body>
+</html>
